@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<body>
+
+<h1>My Web Page</h1>
+
+<p>Hello everybody!</p>
+
+<p>Translate this page:</p>
+
+<p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+ It has survived not only five centuries, but also the leap into electronic typesetting, 
+ remaining essentially unchanged. 
+ It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+ and more recently with desktop publishing 
+ software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+
+</body>
+</html>
